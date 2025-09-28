@@ -24,7 +24,7 @@ const [count, setCount] = useState(0)
 ### Step 4 How to actually do it
 ```javascript 
 <div>{count}</div>
-<button onClick={()=> setCount((prev)=> prev+!)} >Add</button>
+<button onClick={()=> setCount((prev)=> prev+1)} >Add</button>
 <button onClick={()=> setCount((prev)=> prev-1} >Sub</button>
 ```
 
