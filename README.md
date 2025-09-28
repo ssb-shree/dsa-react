@@ -95,7 +95,7 @@ const [data, setData] = useState({username:"", password:""})
 <input onChange={(e)=> setData((prev)=> ({...prev, password:e.target.value}))} type="password"/>
 ```
 
-## Handling Submir
+## Handling Submit
 ```javascript
 <button onClick={handleSubmit}type="button">Submit</button>
 ```
